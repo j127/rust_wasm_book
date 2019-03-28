@@ -1,0 +1,21 @@
+# Editors
+*~
+tags
+tags.*
+.idea/
+.vscode/
+*.sw[op]
+
+# Python
+*.py[cod]
+__pycache__/
+.venv/
+
+# Ruby
+/.bundle
+
+# Node
+node_modules/
+
+# Built wasm files
+*.wasm
