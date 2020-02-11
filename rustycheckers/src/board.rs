@@ -11,6 +11,7 @@ pub struct GamePiece {
 }
 
 impl GamePiece {
+    // create new GamePiece
     pub fn new(color: PieceColor) -> GamePiece {
         GamePiece {
             color,
@@ -26,6 +27,7 @@ impl GamePiece {
     }
 }
 
+/// Represents a coordinate
 #[derive(Debug, Clone, PartialEq, Copy)]
 pub struct Coordinate(pub usize, pub usize);
 
@@ -69,7 +71,7 @@ impl Coordinate {
     }
 }
 
-#[derive(Debug, Clone, PartialEq, Copy)];
+#[derive(Debug, Clone, PartialEq, Copy)]
 pub struct Move {
     pub from: Coordinate,
     pub to: Coordinate,
